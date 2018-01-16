@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+			
+/* Full-width input fields */
+.inputsign, .infoname {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.inputsign {
+	margin-bottom: 10px;
+}
+
+.infoname {
+	margin-bottom: 0px;
+	clear: both;
+}
+
+#input_name {
+	float:left;
+	display:block;
+	width: 72%;
+	margin-right: 5%;
+}
+
+.check_id button{
+	float:left;
+	display: block;
+	width: 20%;
+	height: 43px;
+	border: 1px solid #c0c0c0;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+.check_id button:hover {
+	background-color: #ffdddd;
+}
+
+.contact select {
+	width: 20%;
+	float: left;
+	display: block;
+	margin-right: 5%;
+	margin-bottom: 10px;
+}
+
+.contact input {
+	width: 75%;
+	float: left;
+	display: block;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+	background-color: #0080c0;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+	width:40%;
+	font-size: 100%;
+}
+
+
+.signupbtn {
+	float:right;
+	position: relative;
+	left: -50%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #fd4444;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.cancelbtn:hover {
+	background-color: rgba(253, 68, 68, 0.8);
+}
+
+.signupbtn:hover {
+	background-color: rgba(0, 128, 192, 0.8);
+}
+
+/* Add padding to container elements */
+.container1 {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    /* padding-top: 20px; */
+}
+
+#id02 {
+	padding-top: 5%; 
+}
+
+#id03 {
+  padding-top: 100px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-image: url("images/ryan1.png");
+  background-size: contain;
+}
+
+
+.confirm {
+  background-color: #0080c0;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width:40%;
+  font-size: 17px;
+  margin-bottom: 15px;
+  position: relative;
+  left: 30%;
+}
+
+.confirm:hover {
+	background-color: rgba(0, 128, 192, 1);
+}
+
+.done{
+  text-align: center;
+  font-size: 16pt;
+  padding-top: 32px;
+}
+
+
+#la01 {
+  text-align: center;
+  font-size: 100%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+}
+
+#id04 {
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.8);
+  border-top: 1px solid rgba(192, 192, 192, 0.8);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#fo01 {
+  box-shadow: 0px 0px 20px 5px rgba(192, 192, 192, 0.8);
+  float: left;
+  position: relative;
+  left: 160px;
+  margin-top: 4%;
+  width: 30%;
+}
+
+/* The Close Button (x) */
+.close{
+    /* position: relative;
+    right: 35px;
+    top: 15px; */
+    float: right;
+    position: relative;
+    right: 10px;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#welcome {
+	margin-right: -10px;
+}
+
+#ul01 {
+  vertical-align: top;
+}
+
+.select1 {
+	-webkit-appearance: menulist;
+}
+
+#emailemail {
+	text-align: center;
+}
+
+#footer {
+  padding-top: 20px;
+}
+
+#check_id1 {
+	margin-top: 50px;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}

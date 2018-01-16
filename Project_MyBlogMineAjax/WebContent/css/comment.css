@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.guest1 td{
+	border: 1px solid #c0c0c0;
+	text-align: center;	
+}
+
+#guest2 {
+	width: 20%;
+}
+
+#guest3 {
+	width: 60%;
+}
+
+#guest4 {
+	width: 20%;
+}
+
+#com1 textarea, button {
+  float: left;
+  position: relative;
+  left: 25%
+}
+
+#com1 textarea{
+  width: 42%;
+}
+
+
+#com1 button {
+  width: 70px;
+  height: 60px;;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: -8px;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+  font-size: 13pt;
+}
+
+#com1 {
+  margin-top: -15px;
+}
+
+#com1 button:hover {
+  background-color: #ffdddd;
+}
+

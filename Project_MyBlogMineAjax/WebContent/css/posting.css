@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.post1 {
+	background-color: #f0f0f0;
+	width: 15%;
+}
+
+#post2 {
+	background-color: white;
+}
+
+#myid {
+  width: 30%;
+}
+
+.search3 button, .search3 a {
+  width: 60px;
+  height: 40px;
+  margin-left: 1%;
+  border-radius: 10px;
+  border: 1px solid #c0c0c0;
+  background-color: #ffffff;
+  font-size: 13pt;
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-top: 4px;
+  margin-top: -15px;
+}
+
+.search3 > button:hover, .search3 a:hover {
+  background-color: #ffdddd;
+}
+
+#title1 {
+  background-color: white;
+}
+
+.free1 {
+  padding-bottom: 40px;
+}
+
+#bline {
+	margin-top: 70px;
+}
